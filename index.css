@@ -1,0 +1,87 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Section common styling */
+section {
+    background-color: #fff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+/* Paragraph */
+p {
+    margin-bottom: 15px;
+}
+
+/* Anchor tags */
+a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Image styling */
+#images img {
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+#images img:hover {
+    transform: scale(1.05);
+}
+
+/* Trivia list */
+#trivia ol {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+#trivia li {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    #images img {
+        width: 100%;
+        height: auto;
+    }
+}
